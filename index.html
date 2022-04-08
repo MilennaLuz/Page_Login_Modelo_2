@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./script.js"></script>
+    <title>Login</title>
+</head>
+<body>
+    <h1>Seja Bem Vindo(a) <br> ao IntegraChat!</h1>
+    <div class='container'>
+        <div class='card'>   <!--Inicio Card Login-->
+            <img src="logowpp.svg" class="right-login-image" alt="logo wpp"> <!-- Imagem Logo Wpp -->
+
+            <h1>Faça Seu Login!</h1>
+            
+            <div id='msgError'></div>
+
+            <div class='label-float'>   <!-- Caixa Usuario -->
+                <input type='text' id='usuario' paceholder='' required>
+                <label id='userLabel' for='usuario'>Usuário</label>
+            </div>
+            
+            <div class='label-float'>  <!-- Caixa Senha -->
+                <input type='password' id='senha' paceholder='' required>
+                <label id='senhaLabel' for='senha'>Senha</label>
+                <i class="fa fa-eye" aria-hidden="true"></i>
+            </div>
+
+            <div class='justify-center'> 
+                <button onclick='entrar()'>Entrar</button>    <!-- Botão Login -->
+            </div>
+
+            <div class='justify-center'>   
+                <hr>
+            </div>
+
+            <p>Precisa de Suporte?
+                <a href=''> Clique Aqui </a>  <!-- Caixa Criar Conta -->
+            </p>
+
+        </div> <!--Fim Card Login-->
+    </div>
+   
+
+
+</body>
+</html>
