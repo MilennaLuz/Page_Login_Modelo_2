@@ -52,8 +52,7 @@ function entrar(){
   })
    
   if(usuario.value == userValid.user && senha.value == userValid.senha){
-    window.location.href = 'https://api.github.com/users/MilennaLuz'        // ALTERAR DEPOIS DE ACORDO COM API
-    
+    window.location.href = 'https://api.github.com/users/MilennaLuz'        // ALTERAR DEPOIS 
     let mathRandom = Math.random().toString(16).substring(2)
     let token = mathRandom + mathRandom
     
